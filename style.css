@@ -1,0 +1,112 @@
+/* Index Styling */
+body {
+  background-color: #0b0c10 !important;
+}
+p {
+  color: #c5c6c7;
+}
+.title {
+  float: left;
+  margin-left: 5%;
+  height: 500px;
+}
+/* End Index Styling */
+
+/* Jumbotron Styling */
+.jumbotron {
+  background-color: #66fcf1 !important;
+}
+.jumbotron h1 {
+  float: right;
+  font-family: 'Permanent Marker', cursive;
+}
+/* End Jumbotron Styling */
+
+/* Bio Styling */
+.bioPicture {
+  display: inline-block;
+  height: 400px;
+  margin-left: 50px;
+}
+.pictures {
+  display: inline-block;
+  width: auto;
+}
+.bioText {
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 16px;
+  line-height: 19px;
+}
+/* End Bio Styling */
+
+/* Portfolio Styling */
+.portfolioSection {
+  margin-top: 100px;
+}
+.carousel {
+  width: 80%;
+  margin: 50px auto;
+}
+.carousel-caption {
+  background-color: rgba(192, 192, 192, 0.9);
+  /* box-shadow: 0 0 15px 15px rgba(192,192,192,.9); */
+  border-radius: 25px;
+}
+.carousel-caption h5 {
+  color: black;
+}
+.carousel-caption p {
+  color: black;
+}
+.carousel-control-prev-icon {
+  background-color: rgba(69, 162, 158, 0.95) !important;
+  box-shadow: 0 0 15px 15px rgba(69, 162, 158, 1);
+  border-radius: 20px;
+}
+.carousel-control-next-icon {
+  background-color: rgba(69, 162, 158, 0.95) !important;
+  box-shadow: 0 0 15px 15px rgba(69, 162, 158, 1);
+  border-radius: 20px;
+}
+/* End Portfolio Styling */
+
+/* Footer Styling */
+.footerContact {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.iconColor {
+  color: #66fcf1;
+}
+/* End Footer Styling */
+
+/* Start styling for smaller screens */
+@media only screen and (max-width: 1800px) {
+  .title {
+    height: 400px;
+  }
+  .bioPicture {
+    height: 300px;
+  }
+  .carousel {
+    width: 70%;
+    margin: 10px auto;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .title {
+    height: 300px;
+  }
+  .bioPicture {
+    height: 250px;
+  }
+  .carousel {
+    width: 50%;
+    margin: 10px auto;
+  }
+}
+/* End styling for smaller screens */

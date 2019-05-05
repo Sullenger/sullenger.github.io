@@ -9,7 +9,7 @@ body {
   height: 500px;
 }
 
-.textCenterWhite{
+.textCenterWhite {
   text-align: center;
   color: white;
 }
@@ -82,7 +82,7 @@ body {
   font-size: 40px;
   text-align: center;
 }
-.mainFooter{
+.mainFooter {
   margin-bottom: 50px;
 }
 .iconColor {
@@ -92,7 +92,7 @@ body {
 
 /* Start diagram styling */
 
-.modal-footer{
+.modal-footer {
   justify-content: center !important;
 }
 

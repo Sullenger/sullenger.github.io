@@ -96,6 +96,19 @@ body {
   justify-content: center !important;
 }
 
+.modalWidth {
+  max-width: 100%;
+}
+
+.maxWidth{
+  max-width: 600px;
+  max-height: 400px;
+}
+
+.row{
+  margin: 40px 0px;
+}
+
 /* End diagram styling */
 
 /* Start styling for smaller screens */

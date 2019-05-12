@@ -111,6 +111,14 @@ body {
 
 /* End diagram styling */
 
+/* start presentation styling */
+
+.presentationMargin {
+    margin: 50px;
+}
+
+/* end presentation styling */
+
 /* Start styling for smaller screens */
 @media only screen and (max-width: 1800px) {
   .title {

@@ -100,12 +100,12 @@ body {
   max-width: 100%;
 }
 
-.maxWidth{
+.maxWidth {
   max-width: 600px;
   max-height: 400px;
 }
 
-.row{
+.row {
   margin: 40px 0px;
 }
 
@@ -114,7 +114,7 @@ body {
 /* start presentation styling */
 
 .presentationMargin {
-    margin: 50px;
+  margin: 50px;
 }
 
 /* end presentation styling */
